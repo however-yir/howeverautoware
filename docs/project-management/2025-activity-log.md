@@ -12,3 +12,4 @@
 | 3 | 2025-02-18 | Tuesday | init | #1 | Finalize initialization baseline checkpoint 03 | seed-2025-howeverautoware-03 |
 | 4 | 2025-03-12 | Wednesday | core | #3 | Deliver core feature slice 04 | seed-2025-howeverautoware-04 |
 | 5 | 2025-04-06 | Sunday | core | #4 | Deliver core feature slice 05 | seed-2025-howeverautoware-05 |
+| 6 | 2025-04-28 | Monday | core | #5 | Deliver core feature slice 06 | seed-2025-howeverautoware-06 |
