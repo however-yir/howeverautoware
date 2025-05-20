@@ -13,3 +13,4 @@
 | 4 | 2025-03-12 | Wednesday | core | #3 | Deliver core feature slice 04 | seed-2025-howeverautoware-04 |
 | 5 | 2025-04-06 | Sunday | core | #4 | Deliver core feature slice 05 | seed-2025-howeverautoware-05 |
 | 6 | 2025-04-28 | Monday | core | #5 | Deliver core feature slice 06 | seed-2025-howeverautoware-06 |
+| 7 | 2025-05-20 | Tuesday | core | #3 | Deliver core feature slice 07 | seed-2025-howeverautoware-07 |
