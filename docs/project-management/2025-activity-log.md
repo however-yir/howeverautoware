@@ -22,3 +22,4 @@
 | 13 | 2025-10-05 | Sunday | fix | #6 | Apply fix and hardening patch 13 | seed-2025-howeverautoware-13 |
 | 14 | 2025-10-27 | Monday | test | #7 | Add regression/test evidence checkpoint 14 | seed-2025-howeverautoware-14 |
 | 15 | 2025-11-18 | Tuesday | test | #7 | Add regression/test evidence checkpoint 15 | seed-2025-howeverautoware-15 |
+| 16 | 2025-12-10 | Wednesday | docs | #8 | Update docs/deployment checkpoint 16 | seed-2025-howeverautoware-16 |
