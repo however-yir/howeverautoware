@@ -1,0 +1,5 @@
+# Change Source: Autoware 30-point implementation request | Date: 2026-04-07
+localization:
+  ndt_resolution: 1.0
+  score_threshold: 0.65
+  initial_pose_timeout_sec: 10.0

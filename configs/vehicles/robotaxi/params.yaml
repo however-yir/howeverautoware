@@ -1,0 +1,6 @@
+# Change Source: Autoware 30-point implementation request | Date: 2026-04-07
+vehicle_profile: robotaxi
+wheel_base_m: 2.95
+max_steer_deg: 36.0
+max_accel_mps2: 2.0
+max_decel_mps2: -3.0

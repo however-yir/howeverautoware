@@ -1,9 +1,1 @@
 # Change Source: Autoware 30-point implementation request | Date: 2026-04-07
-build/
-install/
-log/
-reports/
-*.bag
-*.db3
-.vscode/
-.DS_Store

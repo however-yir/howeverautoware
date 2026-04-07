@@ -1,0 +1,17 @@
+# Change Source: Autoware 30-point implementation request | Date: 2026-04-07
+qos_profiles:
+  sensor_data:
+    reliability: best_effort
+    durability: volatile
+    history: keep_last
+    depth: 10
+  planning_trajectory:
+    reliability: reliable
+    durability: volatile
+    history: keep_last
+    depth: 5
+  control_command:
+    reliability: reliable
+    durability: volatile
+    history: keep_last
+    depth: 5

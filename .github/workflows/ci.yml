@@ -1,0 +1,54 @@
+# Change Source: Autoware 30-point implementation request | Date: 2026-04-07
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: ["main", "codex/**"]
+
+jobs:
+  colcon-build-test:
+    runs-on: ubuntu-22.04
+    container:
+      image: ros:humble-ros-base
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          apt-get update
+          apt-get install -y --no-install-recommends \
+            python3-colcon-common-extensions \
+            python3-vcstool \
+            ros-humble-ament-lint \
+            ros-humble-ament-lint-auto \
+            ros-humble-ament-lint-common \
+            ros-humble-ros2bag \
+            git
+
+      - name: Import repositories
+        run: |
+          mkdir -p src
+          vcs import src < my_vehicle.repos
+
+      - name: Build
+        shell: bash
+        run: |
+          source /opt/ros/humble/setup.bash
+          colcon build --symlink-install
+
+      - name: Test
+        shell: bash
+        run: |
+          source /opt/ros/humble/setup.bash
+          source install/setup.bash
+          colcon test --event-handlers console_direct+
+          colcon test-result --verbose
+
+      - name: Interface Guard
+        run: ./scripts/check_message_breaking_changes.sh
+
+      - name: Rosbag Regression Smoke
+        run: ./tests/rosbag_replay/run_rosbag_regression.sh

@@ -1,0 +1,6 @@
+# Change Source: Autoware 30-point implementation request | Date: 2026-04-07
+vehicle_profile: mpv
+wheel_base_m: 3.10
+max_steer_deg: 32.0
+max_accel_mps2: 2.2
+max_decel_mps2: -3.2

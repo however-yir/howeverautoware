@@ -1,0 +1,14 @@
+# Change Source: Autoware 30-point implementation request | Date: 2026-04-07
+kpi:
+  scenario_success_rate:
+    min: 0.98
+    description: End-to-end scenario completion success rate
+  comfort_lateral_accel_mps2:
+    max: 2.5
+    description: Lateral comfort threshold
+  comfort_longitudinal_jerk_mps3:
+    max: 2.0
+    description: Longitudinal jerk comfort threshold
+  emergency_brake_false_positive_rate:
+    max: 0.01
+    description: Safety intervention false-positive ratio

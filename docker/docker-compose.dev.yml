@@ -1,0 +1,12 @@
+# Change Source: Autoware 30-point implementation request | Date: 2026-04-07
+version: "3.9"
+services:
+  dev:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.dev
+    image: my-vehicle-autoware-dev:humble
+    volumes:
+      - ..:/workspace
+    working_dir: /workspace
+    tty: true

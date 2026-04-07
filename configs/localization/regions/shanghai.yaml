@@ -1,0 +1,6 @@
+# Change Source: Autoware 30-point implementation request | Date: 2026-04-07
+region: shanghai
+base: ../global_defaults.yaml
+localization_overrides:
+  ndt_resolution: 0.8
+  score_threshold: 0.70

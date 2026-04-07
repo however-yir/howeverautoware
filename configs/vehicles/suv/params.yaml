@@ -1,0 +1,6 @@
+# Change Source: Autoware 30-point implementation request | Date: 2026-04-07
+vehicle_profile: suv
+wheel_base_m: 2.85
+max_steer_deg: 35.0
+max_accel_mps2: 2.5
+max_decel_mps2: -3.5
