@@ -1,0 +1,18 @@
+# Change Source: Autoware 30-point implementation request | Date: 2026-04-07
+repositories:
+  autoware:
+    type: git
+    url: https://github.com/autowarefoundation/autoware.git
+    version: main
+  autoware_universe:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_universe.git
+    version: main
+  autoware_core:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_core.git
+    version: main
+  autoware_launch:
+    type: git
+    url: https://github.com/autowarefoundation/autoware_launch.git
+    version: main

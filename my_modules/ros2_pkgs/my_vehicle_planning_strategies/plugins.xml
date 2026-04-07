@@ -1,0 +1,9 @@
+<!-- Change Source: Autoware 30-point implementation request | Date: 2026-04-07 -->
+<library path="default_strategy_plugin">
+  <class
+    name="my_vehicle_planning_strategies/DefaultStrategyPlugin"
+    type="my_vehicle_planning_strategies::DefaultStrategyPlugin"
+    base_class_type="my_vehicle_planning_strategies::PlanningStrategy">
+    <description>Default keep-lane planning strategy plugin.</description>
+  </class>
+</library>
