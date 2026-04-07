@@ -1,6 +1,4 @@
-> 变更来源：参考 campus-recruitment-recommendation-system 与 tianji-ai-agent README 风格重写 | 日期：2026-04-07
-
-# 我的车系 Autoware 平台（30 条工程化基线）
+# howeverautoware
 
 🔥 面向量产前工程化落地的 Autoware 主仓模板。  
 🚀 以 `.repos` 为主入口，覆盖依赖管理、模块解耦、回归测试、CI、容器化、监控与实时性分析。  
@@ -447,5 +445,3 @@ colcon test-result --verbose
 | rosbag 回归、KPI、接口预警 | `tests/rosbag_replay` / `tests/kpi` / `scripts/check_message_breaking_changes.sh` |
 | CI + 容器 + 监控 + profiling | `.github/workflows/ci.yml` + `docker/` + `scripts/*metrics*` + `scripts/profile_realtime.sh` |
 | 架构文档、部署 SOP、兼容矩阵、LTS | `docs/architecture.md` / `docs/deployment_sop.md` / `docs/compatibility_matrix.md` / 标签策略 |
-
-如果你接下来希望，我可以继续把这份中文 README 同步生成一份“精简版首页 + 详细文档索引版”，让 GitHub 首页更聚焦、文档更易维护。
