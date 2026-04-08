@@ -15,6 +15,12 @@
   <img src="https://img.shields.io/badge/架构-分层解耦-informational" alt="分层架构" />
 </p>
 
+> Status: `active`
+>
+> Upstream: `autowarefoundation/autoware`
+>
+> Series: [howevercarla](https://github.com/however-yir/howevercarla) · [howeverapollo](https://github.com/however-yir/howeverapollo) · [howeverpilot](https://github.com/however-yir/howeverpilot)
+
 ---
 
 ## 目录
