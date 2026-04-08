@@ -21,6 +21,15 @@
 >
 > Series: [howevercarla](https://github.com/however-yir/howevercarla) · [howeverapollo](https://github.com/however-yir/howeverapollo) · [howeverpilot](https://github.com/however-yir/howeverpilot)
 
+## 自动驾驶作品线分工
+
+| Repo | 主要角色 | 最适合看什么 |
+| --- | --- | --- |
+| `howevercarla` | 仿真与验证底座 | UE5、场景、可复现实验、验证环境 |
+| `howeverautoware` | ROS 2 车辆栈集成 | 感知/规划/控制集成与回归流程 |
+| `howeverapollo` | 主栈平台工程 | Dreamview、规划控制、平台化改造 |
+| `howeverpilot` | 端侧驾驶软件 | 运行时配置、健康检查、车辆接入 |
+
 ---
 
 ## 目录
