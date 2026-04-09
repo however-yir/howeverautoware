@@ -307,11 +307,26 @@ flowchart LR
 ### 10.2 拉取依赖
 
 ```bash
+./bootstrap_vehicle_stack.sh --owner however-yir
 mkdir -p src
 vcs import src < my_vehicle.repos
 ```
 
-### 10.3 构建与测试
+### 10.3 容器开发入口（推荐）
+
+```bash
+./scripts/dev_container_entry.sh up
+./scripts/dev_container_entry.sh verify
+./scripts/dev_container_entry.sh shell
+```
+
+最小验证路径（容器内）：
+
+1. `source /opt/ros/humble/setup.bash`
+2. `python3 --version && colcon --version`
+3. `test -f /workspace/my_vehicle.repos`
+
+### 10.4 构建与测试（本机）
 
 ```bash
 source /opt/ros/humble/setup.bash
@@ -321,7 +336,7 @@ colcon test
 colcon test-result --verbose
 ```
 
-### 10.4 上游合并后的一键全回归
+### 10.5 上游合并后的一键全回归
 
 ```bash
 ./scripts/post_upstream_merge.sh
