@@ -1,4 +1,4 @@
-# howeverautoware
+# howeverautoware - 自动驾驶 ROS2 集成平台 | Autoware Integration Platform
 
 🔥 面向量产前工程化落地的 Autoware 主仓模板。  
 🚀 以 `.repos` 为主入口，覆盖依赖管理、模块解耦、回归测试、CI、容器化、监控与实时性分析。  
