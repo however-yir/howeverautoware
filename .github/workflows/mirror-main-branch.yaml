@@ -15,5 +15,6 @@ jobs:
     runs-on: ubuntu-22.04
     steps:
       - uses: zofrex/mirror-branch@v1
+        continue-on-error: true
         with:
           target-branch: humble
