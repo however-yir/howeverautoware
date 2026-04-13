@@ -19,6 +19,12 @@
 >
 > Upstream: `autowarefoundation/autoware`
 >
+> 非官方声明（Non-Affiliation）:
+> 本仓库为社区维护的衍生项目，与上游项目所属组织或其关联公司无隶属、无官方背书关系。
+>
+> 商标声明（Trademark Notice）:
+> 上游项目名称、Logo 与相关商标归其各自权利人所有；本仓库仅用于兼容性与来源说明，不主张其商标权。
+>
 > Series: [howevercarla](https://github.com/however-yir/howevercarla) · [howeverapollo](https://github.com/however-yir/howeverapollo) · [howeverpilot](https://github.com/however-yir/howeverpilot)
 
 ## 自动驾驶作品线分工
