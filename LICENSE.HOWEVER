@@ -1,0 +1,16 @@
+HoweverAutoware Fork-Specific Licensing Notes
+=============================================
+
+This repository is a derivative work of:
+  https://github.com/autowarefoundation/autoware
+
+Upstream licensing remains in effect for upstream-derived files:
+  - Apache License 2.0 (see LICENSE)
+
+Fork-specific notes:
+  - This file does not replace upstream licenses or notices.
+  - New files introduced by this fork may include additional attribution.
+  - Redistribution should preserve upstream copyright, license, and NOTICE content.
+
+Maintainer:
+  however-yir / Liu Zhuoran
